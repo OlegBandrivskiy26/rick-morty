@@ -1,0 +1,54 @@
+footer {
+    width: 100%;
+    height: 8vh;
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  footer .img__container {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  footer .github {
+    width: 40px;
+    height: 40px;
+    background-image: url("/src/img/github-icon.png");
+    background-size: cover;
+    cursor: pointer;
+  }
+  footer .email {
+    width: 40px;
+    height: 40px;
+    background-image: url("/src/img/gmail-icon.png");
+    background-size: cover;
+    cursor: pointer;
+  }
+  footer .copyright {
+    font-size: clamp(12px, 1vw, 16px);
+    font-weight: 400;
+    color: #fff;
+  }
+  footer a {
+    font-size: clamp(12px, 1vw, 16px);
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+  }
+  footer a span {
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .github {
+      display: none;
+    }
+    .email {
+      display: none;
+    }
+  }/*# sourceMappingURL=Footer.css.map */
