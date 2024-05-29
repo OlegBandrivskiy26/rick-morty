@@ -2,6 +2,7 @@
 import Header from "./components/layouts/Header";
 import Footer from "./components/layouts/Footer";
 import Episodes from "./components/Episodes";
+import Characters from "./components/Characters";
 //importing styles
 import "./App.css"
 //importing react-router-dom
@@ -14,6 +15,7 @@ function App() {
         <div className="app__container">
           <Routes>
                 <Route path="/" element={<Episodes/>}/>
+                <Route path="/characters" element={<Characters/>}/>
           </Routes>
         </div>
         <Footer/>
