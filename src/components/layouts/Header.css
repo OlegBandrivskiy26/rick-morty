@@ -33,6 +33,6 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 2px; /* Adjust height of the underline */
+    height: 2px;
     background-color: white;
-  }/*# sourceMappingURL=Header.css.map */
+  }

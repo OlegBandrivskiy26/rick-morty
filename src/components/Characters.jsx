@@ -14,7 +14,9 @@ const Characters = () => {
     const handleReset = () => {
         setStatus('');
         setGender('');
+        setQuery('');
     }
+
 
     useEffect(() => {
         const fetchCharacters = async () => {

@@ -3,6 +3,7 @@ import Header from "./components/layouts/Header";
 import Footer from "./components/layouts/Footer";
 import Episodes from "./components/Episodes";
 import Characters from "./components/Characters";
+import Locations from "./components/Locations";
 //importing styles
 import "./App.css"
 //importing react-router-dom
@@ -16,6 +17,7 @@ function App() {
           <Routes>
                 <Route path="/" element={<Episodes/>}/>
                 <Route path="/characters" element={<Characters/>}/>
+                <Route path="/locations" element={<Locations/>}/>
           </Routes>
         </div>
         <Footer/>
